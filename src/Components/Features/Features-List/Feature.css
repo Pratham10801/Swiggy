@@ -1,0 +1,53 @@
+.features{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: white;
+    padding-bottom:70px;
+    max-width: 1300px;
+    margin: 0 auto;
+    
+}
+.feature-container{
+    background-color: #2b1e16;
+    padding: 0 20px;
+}
+h4{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 50px;
+}
+.description{
+    font-size: 15px;
+    color: #e0cbc1;
+    width: 280px;
+    margin-top:15px;
+   
+}
+.image{
+    padding-top: 20px;
+}
+
+@media only screen and (max-width:850px)
+{
+    .features{
+      justify-content: center;
+    }
+    .description{
+        width: 280px;
+    }
+    
+}
+@media only screen and (max-width:600px)
+{
+    .features{
+      flex-direction: column;
+      justify-content: center;
+    }
+    .description{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+}
+

@@ -1,0 +1,281 @@
+.sections{
+    display:flex;
+    justify-content:space-between;
+    min-height: 540px;
+    background-image: url(https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_1340/Lunch1_vlksgq);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 45% 650px;
+}
+.section1{
+   margin:70px 70px 70px 80px;
+   max-width: 42em;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-img{
+    left:200px;
+}
+
+.btn{
+    font-size: 18px;
+    font-weight: 700;
+    height: 45px;
+    margin-top: 10px;
+}
+.btn1{
+    padding: 8px;
+    background-color: transparent;
+    margin-right: 20px;
+    width: 32%;
+    cursor: pointer;
+    border-radius: 0;
+}
+.btn2{
+    padding: 5px;
+    background-color: #000;
+    color:white;
+    width:120px;
+    border-radius: 0;
+    cursor: pointer;
+}
+.btn1:hover{
+    color:#fc8019;
+}
+.btn2:hover{
+    color:white;
+}
+
+.section1 h3{
+    color:#686b78;
+    font-size: 24px;
+    font-weight: 400;
+    width: 30em;
+    margin-top: 10px;
+    text-align: left;
+}
+.input::placeholder{
+    font-weight: 600;
+}
+.section1 h4{
+    color:#a9abb2;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.section1 .input{
+    width: 100%;
+    padding: 20px;
+    border:1px solid #a9abb2;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-top: 40px;
+    height: 65px;
+    border-right: transparent;
+}
+
+.input:focus{
+    outline: none;
+    border:1px solid #fc8019;
+    caret-color:#fc8019;
+}
+.section1 h2{
+    text-align: left;
+    margin-top: 70px;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.button{
+    background-color: #fc8019;
+    color: white;
+    width:25%;
+    text-transform: uppercase;
+    height:65px;
+    font-size: 18px;
+    font-weight:700;
+    border:none;
+    line-height: 58px;
+    margin-top: 40px;
+   
+}
+
+
+
+.list{
+    margin-top: 18px;
+    list-style-type: none;
+    text-align: left;
+    padding-left: 0;
+    max-width: 38em;
+}
+
+.list li{
+    display: inline-block;
+    padding-right:5px;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.list li:nth-child(even){
+    color: #93959f;
+}
+.list li:nth-child(odd){
+    color: #686b78;
+}
+.form{
+    display: flex;
+}
+.location{
+    position: relative;
+    width: 35em;
+}
+
+.span{
+    border:none;
+    background-color: white;
+    position:absolute;
+    right: 0;
+    top: 52px;
+    margin-right: 15px;
+    padding: 10px;
+    width: 130px;
+    color:#686b78;
+    font-size: 15px;
+    font-weight: 600;
+}
+.span:hover{
+    background-color: #e8eaee;
+}
+.span img{
+    margin-bottom:5px;
+    margin-right: 4px;
+}
+.animation::after{
+	content: 'Hungry?';
+	animation: myAnimation 20.4s ease  infinite normal none;
+    position: relative;
+}
+@keyframes myAnimation{
+	0%     {content: "Hungry?"; opacity: 0; bottom: -30px;}
+    4.15%  {content: "Hungry?"; opacity: 1; bottom:0px;}
+    15.77% {content: "Hungry?"; opacity: 1; bottom:0px;}
+    16.65% {content: "Hungry?"; opacity: 0; bottom:20px; }
+	16.66% {content: "Unexpected guests?"; opacity:0; bottom:-30px}
+    20.81% {content: "Unexpected guests?"; opacity:1; bottom:0px  }
+    32.43% {content: "Unexpected guests?"; opacity:1; bottom:0px  }
+    33.32% {content: "Unexpected guests?"; opacity:0; bottom:20px }
+	33.33% {content: "Movie marathon?"; opacity:0; bottom:-30px}
+    37.48% {content: "Movie marathon?"; opacity:1; bottom:0px  }
+    49.1%  {content: "Movie marathon?"; opacity:1; bottom:0px  }
+    49.97% {content: "Movie marathon?"; opacity:0; bottom:20px }
+	49.98% {content: "Game night?"; opacity:0; bottom:-30px}
+    54.13% {content: "Game night?"; opacity:1; bottom:0px  }
+    65.75% {content: "Game night?"; opacity:1; bottom:0px  }
+    66.63% {content: "Game night?"; opacity:0; bottom:20px }
+	66.64% {content: "Cooking gone wrong?"; opacity:0; bottom:-30px}
+    70.79% {content: "Cooking gone wrong?"; opacity:1; bottom:0px  }
+    82.41% {content: "Cooking gone wrong?"; opacity:1; bottom:0px  }
+    83.29% {content: "Cooking gone wrong?"; opacity:0; bottom:20px }
+    83.30% {content: "Late night at office?"; opacity:0; bottom:-30px}
+    87.45% {content: "Late night at office?"; opacity:1; bottom:0px  }
+    99.07% {content: "Late night at office?"; opacity:1; bottom:0px  }
+    99.99% {content: "Late night at office?"; opacity:0; bottom:20px }
+}
+
+
+@media (max-width:1400px){
+    .sections{
+        background-image: linear-gradient(hsla(0,20%,90%,0.5),hsla(0,0%,90%,0.6)),url(https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_1340/Lunch1_vlksgq);
+        background-size: 45em 48em;
+    }
+    
+    .input{
+        background-color: transparent;
+    }
+    .span{
+        background-color: transparent;
+    }
+}
+@media (max-width:1000px)
+{
+    .section1{
+        width: 50em;
+        margin: 60px 35px;       
+    }
+    .section1 h3{
+        width: 95%;
+    }
+    .section1 h2{
+        font-size: 42px;
+    }
+    .location{
+        width: 90%;
+    }
+    
+    .input{
+        background-color: transparent;
+    }
+    .button{
+        width: 25%;
+    }
+    .span{
+        margin-right: 0;
+        background-color: transparent;
+    }
+    .nav{
+        justify-content: space-between;
+    }
+    .list{
+        width: 90vw;
+    }
+
+}
+@media (max-width:650px)
+{
+    .section1{
+        width: 40em;
+        margin: 60px 35px;       
+    }
+    .section1 h3{
+        width: 95%;
+    }
+    .section1 h2{
+        font-size: 42px;
+    }
+    .location{
+        width: 90%;
+    }
+    .input::placeholder{
+        visibility: hidden;
+    }
+    .input{
+        background-color: transparent;
+    }
+    .button{
+        width: 28vw;
+    }
+    .span{
+        margin-right: 0;
+        background-color: transparent;
+    }
+    .nav{
+        justify-content: space-between;
+    }
+    .list{
+        width: 90vw;
+    }
+    .section1 h4:hover{
+        color: #2a2b2c;
+    }
+    .list li:nth-child(even):hover
+    {
+        color:brown;
+    }
+
+}
